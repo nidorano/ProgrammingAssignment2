@@ -1,7 +1,14 @@
-## Put comments here that give an overall description of what your
-## functions do
+################################################
+#
+# R Programming
+# Matrix Inverse Cache
+# Francisco Morales
+# v 1.0
+# Ago-2014 
+#
+################################################
 
-## Write a short comment describing this function
+## This function creates the methods for cachin the inverse of a square matrix
 
 makeCacheMatrix <- function(x = matrix()) {
     m <- NULL
@@ -19,7 +26,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## This function returns the inverse of a square Matrix
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
